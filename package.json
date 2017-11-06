@@ -1,0 +1,26 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "scrapes pages based on a configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "engines": {
+    "node": "4.1.1"
+  },
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.5.0",
+    "cheerio": "latest",
+    "express": "4.16.2",
+    "mongodb": "^2.2.31",
+    "request": "latest"
+  },
+  "author": "Daniel Oduonye",
+  "license": "ISC"
+}
